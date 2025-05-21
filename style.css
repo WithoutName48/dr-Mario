@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh; 
+    min-width: 100vw; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.container {
+    height: 768px; 
+    width: 1280px;
+    background-image: url('./img/pf.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
